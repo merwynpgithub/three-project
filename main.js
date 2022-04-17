@@ -16,10 +16,10 @@ document.body.appendChild(renderer.domElement);
 const scene = new THREE.Scene();
 
 const camera = new THREE.PerspectiveCamera(
-  75,
+  70,
   window.innerWidth / window.innerHeight,
-  0.1,
-  1000
+  0.01,
+  10
 );
 
 renderer.render(scene, camera);
